@@ -9,7 +9,7 @@ const config = {
   title: 'Archery Kinect Game',
   tagline: 'TEAMC',
   url: 'https://aiegoo.github.io/',
-  baseUrl: '/',
+  baseUrl: '/archery/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
