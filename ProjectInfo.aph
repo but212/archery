@@ -1,0 +1,19 @@
+<ProjectInfo Version="1">
+  <Signature>B9492AC5140DDD124D120E9EC908D6D6042D0F0DCD91E0FD127E2F90DE568893</Signature>
+  <Content>
+    <Project Guid="23b82a1b-53cd-428c-a1cc-253f52ca6309">
+      <DisplayName Value="planb"/>
+      <DetailName Value="archery based on"/>
+      <MainProjectGuid Value="7c920390-a9b8-4af0-bc30-b01b6da3a957"/>
+      <IconType Value="0"/>
+      <IdProjectIcon Value="00000000-0000-0000-0000-000000000000"/>
+      <ScmProviderGuid Value="0745c2ee-abe3-451b-934e-7f597f56c0d7"/>
+      <ScmConfiguration Value=""/>
+      <CreationTimeStamp Value="637943914997006966"/>
+      <PartitionHash Value="FBED7EC8190ABA9F0D9F67076170175394E05E5C976BF250045F9EF8413552C9"/>
+      <SaveFileVersion Value="55"/>
+      <ProjectType Value="0"/>
+      <IsOnlineProject Value="False"/>
+    </Project>
+  </Content>
+</ProjectInfo>
