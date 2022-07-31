@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: endi
+authors: Tonylee
 tags: [hello, docusaurus]
 ---
 
