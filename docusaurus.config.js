@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Archery Kinect Game',
   tagline: 'TEAMC',
-  url: 'https://aiegoo.github.io/archery',
+  url: 'https://aiegoo.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
