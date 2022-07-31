@@ -1,17 +1,23 @@
-endi:
-  name: Endilie Yacop Sucipto
+Tonylee:
+  name: Byungnam Lee
   title: Maintainer of Docusaurus
   url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+  image_url: https://github.com/aiegoo/resume/wiki/tonyillustWyoga.svg
 
-yangshun:
-  name: Yangshun Tay
+Jungil:
+  name: Jungil Seok
   title: Front End Engineer @ Facebook
   url: https://github.com/yangshun
   image_url: https://github.com/yangshun.png
 
-slorber:
-  name: Sébastien Lorber
+Seokhyun:
+  name: Seokhyun Kang
+  title: Docusaurus maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+
+Gyungseon:
+  name: Gyungseon Lee
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
