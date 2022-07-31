@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/aiegoo/archery/edit/master/website/blog/',
+            'https://github.com/aiegoo/archery/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
