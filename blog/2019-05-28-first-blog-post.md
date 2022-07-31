@@ -1,8 +1,9 @@
 ---
 slug: first-blog-post
-title: TeamC Core Team
+title: First Blog Post
+authors:
   name: Tonylee
-  title: TeamC Core Team
+  title: Docusaurus Core Team
   url: https://github.com/aiegoo
   image_url: https://github.com/aiegoo/resume/wiki/tonyillustWyoga.svg
 tags: [hola, docusaurus]
