@@ -2,10 +2,10 @@
 slug: first-blog-post
 title: First Blog Post
 authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
+  name: Tonylee
+  title:  TeamC Core Team
+  url: https://github.com/aiegoo
+  image_url: https://github.com/aiegoo/resume/wiki/tonyillustWyoga.svg
 tags: [hola, docusaurus]
 ---
 
