@@ -2,22 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Project Portal
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## Project Management 
 
 Get started by **creating a new site**.
 
 Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+### Scenes Control
 
 - [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
+## UI/UX Animations
 
 Generate a new Docusaurus site using the **classic template**.
 
@@ -31,7 +31,7 @@ You can type this command into Command Prompt, Powershell, Terminal, or any othe
 
 The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+## Game Tutorial
 
 Run the development server:
 
