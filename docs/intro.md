@@ -9,7 +9,7 @@ Let's discover **Docusaurus in less than 5 minutes**.
 ## Project Management 
 
 ### DevSpace Roadmap
-This is a collection of roadmap priority items for DevSpace. Please add a PR to update this doc and ideally reference issues where applicable.
+This is a collection of roadmap priority items for this project. Please add a PR to update this doc and ideally reference issues where applicable.
 
 ### Short-Term Priorities
 - Set up Projects, wiki, blog.
