@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Who we are',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       Four-strong team of a developer, a designer, and a 3D artist. 
+       We make games and stories that will change you and your life.  
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'What we do',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      We took a pen, a mouse, and a keyboard and created a game that you can play on your phone. 
+      We play, play and play until the game characters become friends. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'How it works',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The archery game is developed to utilize Azure's Kinect SDK.
+        Go to the tutorials to learn how to use the Kinect.
       </>
     ),
   },
