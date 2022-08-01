@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/archery+game',
+                href: 'https://stackoverflow.com/questions/tagged/archery%20game',
               },
               {
                 label: 'Discord',
