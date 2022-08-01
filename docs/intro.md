@@ -27,7 +27,7 @@ This is a collection of roadmap priority items for this project. Please add a PR
 
 Get started by **creating a name for this project**.
 
-Or **try polling a name recommened** among us **[poll](https://docusaurus.new)**.
+Or **try polling a name recommened** among us **[poll](https://forms.gle/GL5AZHq6jkheBbqS6)**.
 
 ### Scenes Control
 
