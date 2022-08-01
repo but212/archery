@@ -8,9 +8,26 @@ Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Project Management 
 
-Get started by **creating a new site**.
+### DevSpace Roadmap
+This is a collection of roadmap priority items for DevSpace. Please add a PR to update this doc and ideally reference issues where applicable.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Short-Term Priorities
+- Set up Projects, wiki, blog.
+- Add outlines and essentials to the setup
+- Get the characters, scenes, actions and special effects
+- Improve support for git in container (better sync for .git/ folder, non-blocking sync) [https://github.com/loft-sh/devspace/issues/2174]
+- Get external help and advice
+
+### Long-Term Priorities
+- Improve 
+- Redesign 
+- Better upgrade 
+- Docker 
+- Improve use 
+
+Get started by **creating a name for this project**.
+
+Or **try polling a name recommened** among us **[poll](https://docusaurus.new)**.
 
 ### Scenes Control
 
