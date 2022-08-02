@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-       Four-strong team of a developer, a designer, and a 3D artist. 
+       Four-strong team of a developer, a designer, and 3D animation artist. 
        We make games and stories that will change you and your life.  
       </>
     ),
