@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KOCCA, Kidp and Joyfun collaboration program for TeamC.`,
       },
       prism: {
         theme: lightCodeTheme,
