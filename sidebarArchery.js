@@ -18,12 +18,12 @@ module.exports = {
       type: 'category',
       label: 'Scripting',
       items: [
-      'Intro-scene',
+      'Scripting/Intro Scene',
       {
       type: 'category',
       label: 'Player Scripts',
       items: [
-      'Player-Controls',
+      'Scripting/player',
     //  'Player Movement',
     //  'Player Shooting',
     //  'Player Physics',
@@ -50,7 +50,7 @@ module.exports = {
      //   ],
      // },
       //'Scene Management',
-      'Special-Effects',
+      'Scripting/Specialeffect',
       //'Special Effects - Particle System',
       //'Special Effects - Aiming',
       //'Stage Management',
