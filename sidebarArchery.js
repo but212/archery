@@ -18,12 +18,12 @@ module.exports = {
       type: 'category',
       label: 'Scripting',
       items: [
-      'Intro Scene',
+      'Intro-scene',
       {
       type: 'category',
       label: 'Player Scripts',
       items: [
-      'Player Controls',
+      'Player-Controls',
     //  'Player Movement',
     //  'Player Shooting',
     //  'Player Physics',
@@ -50,7 +50,7 @@ module.exports = {
      //   ],
      // },
       //'Scene Management',
-      'Special Effects',
+      'Special-Effects',
       //'Special Effects - Particle System',
       //'Special Effects - Aiming',
       //'Stage Management',
@@ -59,14 +59,14 @@ module.exports = {
       //'Player Physics - Collision',
       //'aid-player-to-enemy',
       //'fire-player-weapon',
-      'Variabl Collections',
+      'Variabl-Collections',
       ],
     },
     {
       type: 'category',
       label: 'Modeling Animation',
       items: [
-      'Modeling Animation',
+      'manage-docs-versions',
       //'customize-image',
       //'manage-airflow-versions',
       //'upgrade-to-airflow-2',
