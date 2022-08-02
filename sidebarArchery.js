@@ -74,7 +74,7 @@ module.exports = {
       'airflow-api',
       {
       type: 'category',
-      labekl: 'Write DAGs',
+      label: 'Write DAGs',
       items: [
       'deferrable-operators',
       'kubepodoperator-local',
