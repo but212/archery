@@ -17,6 +17,7 @@ This is a collection of roadmap priority items for this project. Please add a PR
 - Get the characters, scenes, actions and special effects
 - Improve support for git in container (better sync for .git/ folder, non-blocking sync) [https://github.com/loft-sh/devspace/issues/2174]
 - Get external help and advice
+- GDD
 
 ### Long-Term Priorities
 - Improve 
@@ -29,6 +30,7 @@ Get started by **creating a name for this project**.
 
 Or **try polling a name recommened** among us **[poll](https://forms.gle/GL5AZHq6jkheBbqS6)**.
 
+## Game Design Document
 ### Scenes Control
 
 - [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
