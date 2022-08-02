@@ -32,11 +32,10 @@ module.exports = {
     //  'fire-player-weapon',
       ],
       },
-      {
-      type: 'category',
-      label: 'Enemy Movement',
-      items: [
-      '',
+     // {
+     // type: 'category',
+     // label: 'Enemy Movement',
+     // items: [
      // 'Enemy Shooting',
      // 'Enemy Health',
      // 'Enemy Spawning',
@@ -48,9 +47,9 @@ module.exports = {
      // 'Enemy AI - Pathing',
      // 'Enemy AI - Pathing - Pathfinding',
      // 'Enemy AI - Pathing - Pathfinding - Pathfinding',
-        ],
-      },
-      'Scene Management',
+     //   ],
+     // },
+      //'Scene Management',
       'Special Effects',
       //'Special Effects - Particle System',
       //'Special Effects - Aiming',
@@ -67,7 +66,7 @@ module.exports = {
       type: 'category',
       label: 'Modeling Animation',
       items: [
-      '',
+      'Modeling Animation',
       //'customize-image',
       //'manage-airflow-versions',
       //'upgrade-to-airflow-2',
@@ -91,7 +90,6 @@ module.exports = {
       type: 'category',
       label: 'Deploy',
       items: [
-      '',
       //'deploy-cli',
       //'ci-cd',
       ],
