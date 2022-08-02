@@ -36,7 +36,7 @@ module.exports = {
       type: 'category',
       label: 'Enemy Movement',
       items: [
-     // 'Enemy Movement',
+      '',
      // 'Enemy Shooting',
      // 'Enemy Health',
      // 'Enemy Spawning',
@@ -67,6 +67,7 @@ module.exports = {
       type: 'category',
       label: 'Modeling Animation',
       items: [
+      '',
       //'customize-image',
       //'manage-airflow-versions',
       //'upgrade-to-airflow-2',
@@ -90,6 +91,7 @@ module.exports = {
       type: 'category',
       label: 'Deploy',
       items: [
+      '',
       //'deploy-cli',
       //'ci-cd',
       ],
