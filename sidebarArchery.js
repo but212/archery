@@ -86,14 +86,14 @@ module.exports = {
       //'upgrade-astro-cli',
     ],
     },
-    {
-      type: 'category',
-      label: 'Deploy',
-      items: [
-      //'deploy-cli',
-      //'ci-cd',
-      ],
-    },
+//    {
+//      type: 'category',
+//      label: 'Deploy',
+//      items: [
+//      //'deploy-cli',
+//      //'ci-cd',
+//      ],
+//    },
 //    {
 //      type: 'category',
 //      label: 'Administration',
