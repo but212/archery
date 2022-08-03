@@ -2,8 +2,8 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
-html {
-  color: #a59090;
+html > h2, h3, ul, ol, p, li, h1, h2, h3, h4, h5, h6, pre, code, .highlight {
+  color: #b3a3a3;
 }
 
 .heroBanner {
