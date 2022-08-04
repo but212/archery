@@ -127,13 +127,14 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       algolia: {
+        contextualSearch: true,
         // The application ID provided by Algolia
-        appId: 'appId',
+        appId: '76BKM7M8KH',
         
             // Public API key: it is safe to commit it
-            apiKey: 'apiKey',
+            apiKey: '6a3733767ee79f463721b21e4b74729f',
         
-            indexName: 'indexName'
+            indexName: 'archery'
           },
     }),
 };
