@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# 🥇 Project Portal
+# Project Portal
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Project Management 
+## 🥇Project Management 
 
 ### DevSpace Roadmap
 This is a collection of roadmap priority items for this project. Please add a PR to update this doc and ideally reference issues where applicable.
