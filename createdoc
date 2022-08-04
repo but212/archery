@@ -1,0 +1,82 @@
+#!/bin/sh
+
+# Using a 'cat' here document, create a file for the archery site
+# the website containing what's required for tag pages.
+
+# Pass in diary name 
+#   ./createdoc Intro
+# Pass in other parameters such as title, sidebar type, summary and categories
+
+CMDLINEPARAM=1     #  Takes at least one param.
+TAGDIR="docs/Scripting"
+fileName=$(date +"%Y-%m-%d-%U")
+date=$(date +"%FT%T")
+update=$(date +"%Y-%m-%d %H:%M")
+
+if [ $# -ge $CMDLINEPARAM ]
+then
+  diary=$@
+else
+  echo "At least ${CMDLINEPARAM} journal name is required."
+  exit 1
+fi
+
+if [ -d "${TAGDIR}" ]; then
+
+  echo "Creating doc(s) for ${docs}"
+
+  for journal in ${diary}; do
+    echo "Title for $docs:"
+    read title
+    echo "slug name is:"
+    read slug
+    echo "author name is:"
+    read authors
+    echo "Place a category:"
+    read categories
+    echo "keywords?"
+    read keywords
+    echo "the sidebar position?"
+    read sidebar_position
+  # Cannot indent here string.
+cat <<EOF >"${TAGDIR}/${fileName}th.md"
+---
+layout: post
+title: "${title}"
+name: "${docs}"
+slug: /[$slug]
+permalink: ${my-doc-id}
+sidebar: 
+folder: 2021
+collection: wiki
+categories: ${authors}
+keywords: "${keywords}"
+summary: "${journal}, ${authors}"
+excerpt_separator: <!--more-->
+toc: true
+public: true
+parent: [[Wiki-Setting-Category]] 
+date: ${date} +0900
+updated: ${update}
+sidebar_position: ${sidebar_position}
+---
+* TOC
+{:toc}
+
+## 
+
+
+
+
+
+echo "  - ${docs}" >> /sitemap.yml
+
+  done
+
+else
+  echo "Directory ${TAGDIR} doesn't exist or you are not in the top-level directory."
+  echo "Please run again from the root directory of your project."
+  exit 1
+fi
+
+exit
