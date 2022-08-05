@@ -27,25 +27,19 @@ if [ -d "${TAGDIR}" ]; then
   for doc in ${docs}; do
     echo "Title for $docs:"
     read title
-    echo "slug name is:"
-    read slug
     echo "author name is:"
     read authors
     echo "the sidebar position?"
     read sidebar_position
-    echo "keywords?"
-    read keywords
   # Cannot indent here string.
 cat <<EOF >"${TAGDIR}/${docs}.md"
 ---
 title: "${title}"
 name: ${docs}
-slug: [${slug}]
 authors: ${authors}
 date: ${date} +0900
 updated: ${update}
 sidebar_position: ${sidebar_position}
-keywords: ${keywords}
 ---
 
 ## 
