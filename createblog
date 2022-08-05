@@ -31,7 +31,7 @@ if [ -d "${TAGDIR}" ]; then
     echo "author name is:"
     read authors
   # Cannot indent here string.
-cat <<EOF >"${TAGDIR}/${fineName}+${blog}.md"
+cat <<EOF >"${TAGDIR}/${fileName}-${blog}.md"
 ---
 title: "${fileName}"
 name: ${title}
