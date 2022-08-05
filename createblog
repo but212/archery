@@ -34,6 +34,7 @@ if [ -d "${TAGDIR}" ]; then
 cat <<EOF >"${TAGDIR}/${fileName}th-${blog}.md"
 ---
 title: "${title}"
+slug: ${fileName}th-${blog}
 authors: ${authors}
 created: ${date} +0900
 updated: ${update}
