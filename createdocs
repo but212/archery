@@ -1,0 +1,66 @@
+#!/bin/sh
+
+# Using a 'cat' here document, create a file for jekyll
+# website containing what's required for tag pages.
+
+# Pass in tag name(s)
+#   ./createtag linux bsd
+
+CMDLINEPARAM=1     #  Takes at least one param.
+TAGDIR="docs/Scripting"
+fileName=$(date +"%Y-%m-%d-%U")
+date=$(date +"%FT%T")
+
+
+if [ $# -ge $CMDLINEPARAM ]
+then
+  docs=$@
+else
+  echo "Atleast ${CMDLINEPARAM} doc name is required."
+  exit 1
+fi
+
+if [ -d "${TAGDIR}" ]; then
+
+  echo "Creating doc(s) for ${docs}"
+
+  for doc in ${docs}; do
+    echo "Title for $docs:"
+    read title
+    echo "slug name is:"
+    read slug
+    echo "author name is:"
+    read authors
+    echo "the sidebar position?"
+    read sidebar_position
+    echo "keywords?"
+    read keywords
+  # Cannot indent here string.
+cat <<EOF >"${TAGDIR}/${docs}.md"
+---
+title: "${title}"
+name: ${docs}
+slug: [${slug}]
+authors: ${authors}
+date: ${date} +0900
+updated: ${update}
+sidebar_position: ${sidebar_position}
+keywords: ${keywords}
+---
+
+## 
+
+
+EOF
+
+echo "  - ${docs}" >> sitemap.yml
+
+  done
+
+else
+  echo "Directory ${docs} doesn't exist or you are not in the top-level directory."
+  echo "Please run again from the root directory of your project."
+  exit 1
+fi
+
+exit
