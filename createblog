@@ -33,7 +33,7 @@ if [ -d "${TAGDIR}" ]; then
   # Cannot indent here string.
 cat <<EOF >"${TAGDIR}/${fileName}th-${blog}.md"
 ---
-title: "${title}"
+title: "${title^^p}"
 slug: ${fileName}th-${blog}
 authors: ${authors}
 created: ${date} +0900
