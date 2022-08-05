@@ -27,7 +27,7 @@ if [ -d "${TAGDIR}" ]; then
 
   for journal in ${blog}; do
     echo "Title for $blog:"
-    read title
+    read -p title
     echo "author name is:"
     read authors
   # Cannot indent here string.
