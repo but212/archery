@@ -1,5 +1,5 @@
 ---
-title: "Game Design Documentation for Archery Game"
+title: "Game Design Documentation"
 name: GDD
 authors: tonylee
 date: 2022-08-05T16:56:02 +0900
