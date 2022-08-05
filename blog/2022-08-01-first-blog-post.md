@@ -2,7 +2,7 @@
 slug: first-blog-post
 title: First Blog Post
 authors:
-  name: Tonylee
+  name: tonylee
   title: Docusaurus Core Team
   url: https://github.com/aiegoo
   image_url: https://github.com/aiegoo/resume/wiki/tonyillustWyoga.svg

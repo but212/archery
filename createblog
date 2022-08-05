@@ -26,14 +26,14 @@ if [ -d "${TAGDIR}" ]; then
   echo "Creating journal(s) for ${blog}"
 
   for journal in ${blog}; do
-    echo "Title for $blog:"
-    read  title
+    echo "Title for $blog:" 
+    read  title 
     echo "author name is:"
     read authors
   # Cannot indent here string.
 cat <<EOF >"${TAGDIR}/${fileName}th-${blog}.md"
 ---
-title: "${title}" | tr '[a-z]' '[A-Z]'
+title: "${title}"
 slug: ${fileName}th-${blog}
 authors: ${authors}
 created: ${date} +0900

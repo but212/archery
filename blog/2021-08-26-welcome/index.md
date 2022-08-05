@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [Tonylee, Jungil]
+authors: [tonylee, jungil]
 tags: [facebook, hello, docusaurus]
 ---
 
