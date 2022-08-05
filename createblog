@@ -7,40 +7,37 @@
 #   ./createtag linux bsd
 
 CMDLINEPARAM=1     #  Takes at least one param.
-TAGDIR="docs/Scripting"
+TAGDIR="blog"
 fileName=$(date +"%Y-%m-%d-%U")
-update=$(date +"%Y-%m-%d %H:%M")
 date=$(date +"%FT%T")
-
+update=$(date +"%Y-%m-%d %H:%M")
+journal=$(date +"%a, %b %d, %y")
 
 if [ $# -ge $CMDLINEPARAM ]
 then
-  docs=$@
+  blog=$@
 else
-  echo "Atleast ${CMDLINEPARAM} doc name is required."
+  echo "Atleast ${CMDLINEPARAM} blog name is required."
   exit 1
 fi
 
 if [ -d "${TAGDIR}" ]; then
 
-  echo "Creating doc(s) for ${docs}"
+  echo "Creating journal(s) for ${blog}"
 
-  for doc in ${docs}; do
-    echo "Title for $docs:"
+  for journal in ${blog}; do
+    echo "Title for $blog:"
     read title
     echo "author name is:"
     read authors
-    echo "the sidebar position?"
-    read sidebar_position
   # Cannot indent here string.
-cat <<EOF >"${TAGDIR}/${docs}.md"
+cat <<EOF >"${TAGDIR}/${fineName}+${blog}.md"
 ---
-title: "${title}"
-name: ${docs}
+title: "${fileName}"
+name: ${title}
 authors: ${authors}
 date: ${date} +0900
 updated: ${update}
-sidebar_position: ${sidebar_position}
 ---
 
 ## 
