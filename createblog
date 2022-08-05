@@ -36,7 +36,7 @@ cat <<EOF >"${TAGDIR}/${fineName}+${blog}.md"
 title: "${fileName}"
 name: ${title}
 authors: ${authors}
-date: ${date} +0900
+created: ${date} +0900
 updated: ${update}
 ---
 
