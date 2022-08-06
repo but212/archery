@@ -26,7 +26,7 @@ jobs:
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/aiegoo/archery
       - name: Deploy to GitHub Pages
-        uses: aiegoo/gh-page@v3
+        uses: actions/checkout@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
