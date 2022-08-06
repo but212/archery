@@ -140,7 +140,8 @@ const config = {
             // Public API key: it is safe to commit it
             apiKey: '6a3733767ee79f463721b21e4b74729f',
         
-            indexName: 'archery'
+            indexName: 'xr-archery'
+            
           },
     }),
 };
