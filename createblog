@@ -41,8 +41,6 @@ updated: ${update}
 ---
 
 ## 
-
-
 EOF
 
 echo "  - ${docs}" >> sitemap.yml
