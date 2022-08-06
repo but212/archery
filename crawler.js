@@ -1,15 +1,15 @@
 new Crawler({
-  appId: 'YOUR_APP_ID',
-  apiKey: 'YOUR_API_KEY',
+  appId: '76BKM7M8KH',
+  apiKey: '6a3733767ee79f463721b21e4b74729f',
   rateLimit: 8,
-  startUrls: ['https://YOUR_WEBSITE_URL/'],
-  sitemaps: ['https://YOUR_WEBSITE_URL/sitemap.xml'],
+  startUrls: ['https://aiegoo.github.io/archery/'],
+  sitemaps: ['https://aiegoo.github.io/archery/sitemaps/'],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ['https://YOUR_WEBSITE_URL/**'],
+  discoveryPatterns: ['https://aiegoo.github.io/archery/**'],
   actions: [
     {
-      indexName: 'YOUR_INDEX_NAME',
-      pathsToMatch: ['https://YOUR_WEBSITE_URL/**'],
+      indexName: 'xr-archery',
+      pathsToMatch: ['https://aiegoo.github.io/archery/**'],
       recordExtractor: ({ $, helpers }) => {
         // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
         const lvl0 =
