@@ -1,12 +1,12 @@
 ---
-title: "fixing crawler and json issues"
+title: "Fixing Crawler and Json Issues"
 slug: 2022-08-06-31th-docSearch
 authors: tonylee
 created: 2022-08-06T11:31:47 +0900
 updated: 2022-08-06 11:31
 ---
 
-## docSearch issues
+## DocSearch Issues
 
 I have trouble getting started with Algolia, especially with the pushing the site's index data to Algolia server, which has the following schematics;
 
