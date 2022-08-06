@@ -43,6 +43,14 @@ b                            Resizes artisan brush
 x                            Snap to grid
 z (ctrl+ z)               Undo
 Z (shift + z)            Redo
-+ /=                Increase manipulator size
-                     Decrease manipulator size Spacebar (hold)      Show hotbox
++ /=                 Increase manipulator size
+-                    Decrease manipulator size 
+Spacebar (hold)      Show hotbox
+Spacebar (tap)       When done over a viewport, maximizes/minimizes current window 
+Insert Key           Pivot point edit mode
+F2– Animation, F3 – Polygons, and F4 – Surfaces)
+
 ```
+
+![image](https://user-images.githubusercontent.com/42961200/183243729-803b63ee-af70-4d0b-b557-6d3ad0a6155b.png)
+
