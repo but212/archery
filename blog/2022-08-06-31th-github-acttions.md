@@ -50,3 +50,5 @@ jobs:
           user_name: aiegoo
           user_email: 42961200+github-actions[bot]@users.noreply.github.com
 ```
+## Issues
+`The deploy didn't really happen yet even though the process clearly said it's gone through without a glitch. I think 'build' isn't actually add the built files to gh-pages.
