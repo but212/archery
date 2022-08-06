@@ -1,5 +1,5 @@
 ---
-title: "finally run github ci using customized scripts"
+title: "Finally Run Github CI Using Actions"
 slug: 2022-08-06-31th-github-acttions
 authors: [tonylee, jungil]
 created: 2022-08-06T16:02:02 +0900
