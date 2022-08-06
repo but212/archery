@@ -35,7 +35,7 @@ jobs:
           npm run build
       - name: Deploy to GitHub Pages
         if: success()
-        uses: archery/ghaction-github-pages@v2
+        uses: aiegoo/archery-github-pages@v2
         with:
           target_branch: gh-pages
           build_dir: website/build
