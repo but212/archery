@@ -540,9 +540,6 @@ Uniform Problem Solving
 Minimizes Communication
 Minimizes Performance Pitfalls
 
-<hr>
-```
-.
 └── Unity
     ├── Assets
     │   ├── 3rdParty
@@ -683,4 +680,3 @@ Minimizes Performance Pitfalls
         └── XRSettings.asset
 
 47 directories, 94 files
-```
