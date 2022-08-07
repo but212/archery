@@ -5,6 +5,8 @@ authors: tonylee
 created: 2022-08-07T21:01:37 +0900
 updated: 2022-08-07 21:01
 ---
+import Gist from 'react-gist';
+
 ## Preface
 
 ### Rule of Thumb
