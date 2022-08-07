@@ -682,3 +682,8 @@ Minimizes Performance Pitfalls
 
 47 directories, 94 files
 </pre>
+
+import CodeBlock from '@theme/CodeBlock';
+import MyComponentSource from '!!raw-loader!./myComponent';
+
+<CodeBlock language="bash">{tree.md}</CodeBlock>
