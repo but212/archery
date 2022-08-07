@@ -41,10 +41,10 @@ The settings that can imported into your IDE can be found [here](https://github.
 
    ```cs
    public void SomeMethod(int someParameter)
-     {
-         int someNumber;
-         int id;
-     }
+   {
+       int someNumber;
+       int id;
+   }
    ```
 
 
@@ -52,15 +52,15 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     public uint GetAge()
-      {
-          // function implementation...
-      }
+    {
+        // function implementation...
+    }
     ```
 
 
 4. However, if a method simply returns a boolean state, the verb part of the name should be prefixed Is, Can, Has or Should. If the function name becomes not natural by doing so, use the 3rd-person singular form of another verb.
 
-    ```cs
+    ```csharp
     public bool IsAlive(Person person);
     public bool Has(Person person);
     public bool CanAccept(Person person);
@@ -72,18 +72,18 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     public uint GetAge()
-      {
-          // function implementation...
-      }
+    {
+        // function implementation...
+    }
     ```
 
 6. Use camel case for any non-public method. You might need to add custom Visual Studio style rule as described here
 
     ```cs
     private uint getAge()
-      {
-          // function implementation...
-      }
+    {
+        // function implementation...
+    }
     ```
 
 7. Use ALL_CAPS_SEPARATED_BY_UNDERSCORE for constants
@@ -104,15 +104,15 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     public class Account
-      {
-          private readonly string mPassword;
-      
+    {
+        private readonly string mPassword;
+    
         public Account(string password)
         {
             mPassword = password;
         }
-      }
-      ```
+    }
+    ```
 
 11. Use pascal casing for namespaces
     
@@ -147,11 +147,11 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     public enum EDirection
-      {
-          North,
-          South
-      }
-      ```
+    {
+        North,
+        South
+    }
+    ```
 
 16. prefix structs with `S` unless they are `readonly struct`s
 
@@ -163,11 +163,11 @@ The settings that can imported into your IDE can be found [here](https://github.
     
     ```cs
     Public class Employee
-      {
-          public int DepartmentID { get; set; }
-          private int mAge;
-      }
-      ```
+    {
+        public int DepartmentID { get; set; }
+        private int mAge;
+    }
+    ```
 
 18. Methods with return values must have a name describing the value returned
 
@@ -190,19 +190,19 @@ The settings that can imported into your IDE can be found [here](https://github.
     BAD:
     ```cs
     public class Employee
-      {
-          private string mName;
-          public string GetName();
+    {
+        private string mName;
+        public string GetName();
         public string SetName(string name);
-      }
-      ```
+    }
+    ```
 
     GOOD:
     ```cs
     public class Employee
-      {
-          public string Name { get; set; }
-      }
+    {
+        public string Name { get; set; }
+    }
     ```
 
 22. Declare local variables as close as possible to the first line where it is being used.
@@ -218,13 +218,12 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     switch (number)
-      {
-          case 0:
-              ... 
+    {
+        case 0:
+            ... 
             break;
-          default:
+        default:
             break;
-      }
     ```
 
 
@@ -232,14 +231,14 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     switch (type)
-      {
+    {
         case 1:
             ... 
             break;
         default:
             Debug.Fail("unknown type");
             break;
-      }
+    }
     ```
 
 26. Names of recursive functions end with `Recursive`
@@ -306,12 +305,12 @@ The settings that can imported into your IDE can be found [here](https://github.
     ```cs
     [Flags]
     public enum EVisibilityFlags
-      {
+    {
         None = 0,
         Character = 1 << 0,
         Terrain = 1 << 1,
         Building = 1 << 2,
-      }
+    }
     ```
 
 34. Prefer overloading over default parameters
@@ -324,16 +323,16 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     public class SomeClass
-      {
-          public int Count { get; set; }
-          public void Func(int count)
-          {
-              for (int count = 0; count != 10; ++count)
-              {
-                  // Use count
-              }
-          }
-      }
+    {
+        public int Count { get; set; }
+        public void Func(int count)
+        {
+            for (int count = 0; count != 10; ++count)
+            {
+                // Use count
+            }
+        }
+    }
     ```
 
 37. Always use containers from `System.Collections.Generic` over ones from `System.Collections`. Using a pure array is fine as well.
@@ -354,14 +353,14 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     switch (accountType)
-      {
-          case AccountType.Personal:
-              return something;
-          case AccountType.Business:
-              return somethingElse;
-          default:
-              throw new NotImplementedException($"unhandled switch case: {accountType}");
-      }
+    {
+        case AccountType.Personal:
+            return something;
+        case AccountType.Business:
+            return somethingElse;
+        default:
+            throw new NotImplementedException($"unhandled switch case: {accountType}");
+    }
     ```
 
 44. Prefer not to allow `null` parameters in your function, especially from a `public` one.
@@ -371,13 +370,13 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     public Anim GetAnim(string nameOrNull)
-      {
-      }
-      ```
+    {
+    }
+    ```
 
-  46. Prefer not to return `null` from any function, especially from a `public` one. However, you sometimes need to do this to avoid throwing exceptions.
+46. Prefer not to return `null` from any function, especially from a `public` one. However, you sometimes need to do this to avoid throwing exceptions.
 
-  47. If `null` is returned from any function. Postfix the function name with `OrNull`.
+47. If `null` is returned from any function. Postfix the function name with `OrNull`.
 
     ```cs
     public string GetNameOrNull();
@@ -410,14 +409,14 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     if (bSomething)
-      {
-          return;
-      }
-      ```
+    {
+        return;
+    }
+    ```
 
-  4. Declare only one variable per line
+4. Declare only one variable per line
 
-      BAD:
+    BAD:
     ```cs
     int counter = 0, index = 0;
     ```
@@ -486,10 +485,68 @@ The settings that can imported into your IDE can be found [here](https://github.
 
     ```cs
     public sealed class XNode
-      {
-      }
+    {
+    }
 
     public enum EXTransactionStatus
-      {
-      }
+    {
+    }
     ```
+Unity Project Template
+=============
+
+This repo includes Project Structure Best Practices and C# Coding Standards for Unity.
+
+<img src="./README.png" alt="Best Practices">
+
+A. Unity — Project Structure Best Practices
+=============
+
+Employing an organized project structure is beneficial to your project and your team.
+
+Scope:
+* Folder Structure
+* Folder Naming
+* File Naming
+
+Benefits:
+
+* Consistency — The project structure has consistency in presentation regardless of team location, spoken language, or individual programmers.
+* Maintenance — Consistent project structure will aid readability. Readability helps new and existing programmers revisit the code base for fixes and improvements.
+* Communication — Developers more implicitly understand each other in written and verbal communication.
+
+B. Coding Standards
+=============
+
+Coding standards define a programming style. 
+
+See the repo's <a href="https://github.com/SamuelAsherRivello/unity-project-template/tree/master/Unity/Assets/Scripts/Runtime/RMC/Templates">C# Templates</a> for more info.
+
+Employing organized coding standards is beneficial to your project and your team.
+
+Scope:
+
+* Naming Conventions
+* File Naming and Organization
+* Formatting and Indentation
+* Comments and Documentation
+* Classes, Functions and Interfaces
+* Testing
+
+Benefits:
+
+* Code Integration
+* Team Member Integration
+* Maintenance
+* Uniform Problem Solving
+* Minimizes Communication
+* Minimizes Performance Pitfalls
+* Saves Money Due to Less Man Hours 
+
+
+<script src="https://gist.github.com/aiegoo/733e6f5717fd7d333a4c91df290f7c2e.js"></script>
+
+RMC represents my custom company name
+MyProject represents the custom project name.
+Art consolidates common creative concerns. For the creative team, this consolidation facilitates onboarding, committing, and policing commits.
+
