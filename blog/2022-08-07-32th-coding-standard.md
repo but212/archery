@@ -684,6 +684,5 @@ Minimizes Performance Pitfalls
 </pre>
 
 import CodeBlock from '@theme/CodeBlock';
-import MyComponentSource from '!!raw-loader!./myComponent';
 
 <CodeBlock language="bash">{tree.md}</CodeBlock>
