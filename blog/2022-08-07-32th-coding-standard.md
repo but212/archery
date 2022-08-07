@@ -505,15 +505,15 @@ A. Unity — Project Structure Best Practices
 Employing an organized project structure is beneficial to your project and your team.
 
 Scope:
-- Folder Structure
-- Folder Naming
-- File Naming
+Folder Structure
+Folder Naming
+File Naming
 
 Benefits:
 
-- Consistency — The project structure has consistency in presentation regardless of team location, spoken language, or individual programmers.
-- Maintenance — Consistent project structure will aid readability. Readability helps new and existing programmers revisit the code base for fixes and improvements.
-- Communication — Developers more implicitly understand each other in written and verbal communication.
+Consistency — The project structure has consistency in presentation regardless of team location, spoken language, or individual programmers.
+Maintenance — Consistent project structure will aid readability. Readability helps new and existing programmers revisit the code base for fixes and improvements.
+Communication — Developers more implicitly understand each other in written and verbal communication.
 
 B. Coding Standards
 
@@ -524,21 +524,21 @@ Employing organized coding standards is beneficial to your project and your team
 
 Scope:
 
-- Naming Conventions
-- File Naming and Organization
-- Formatting and Indentation
-- Comments and Documentation
-- Classes, Functions and Interfaces
-- Testing
+Naming Conventions
+File Naming and Organization
+Formatting and Indentation
+Comments and Documentation
+Classes, Functions and Interfaces
+Testing
 
 Benefits:
 
-- Code Integration
-- Team Member Integration
-- Maintenance
-- Uniform Problem Solving
-- Minimizes Communication
-- Minimizes Performance Pitfalls
+Code Integration
+Team Member Integration
+Maintenance
+Uniform Problem Solving
+Minimizes Communication
+Minimizes Performance Pitfalls
 
 <hr>
 ```
