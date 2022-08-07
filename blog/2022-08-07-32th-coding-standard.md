@@ -543,5 +543,4 @@ Benefits:
 * Minimizes Performance Pitfalls
 
 <Gist id="733e6f5717fd7d333a4c91df290f7c2e" />
-<script src="https://gist.github.com/aiegoo/733e6f5717fd7d333a4c91df290f7c2e.js"></script>
 
