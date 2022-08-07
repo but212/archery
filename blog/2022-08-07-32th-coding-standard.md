@@ -542,5 +542,6 @@ Benefits:
 * Minimizes Communication
 * Minimizes Performance Pitfalls
 
+<hr>
 <Gist id="733e6f5717fd7d333a4c91df290f7c2e" />
 
