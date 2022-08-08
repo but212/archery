@@ -682,3 +682,17 @@ Minimizes Performance Pitfalls
 
 47 directories, 94 files
 ```
+
+
+### main title
+2D UI of the game
+
+The game project will include MainTtile, piano, shootingGame, success missionFail scenes.
+
+The change of scenes will be trigger with onclick functions from missionFail or success scenes.
+
+After this has completed, add the scenes to BuildSettings of Platform called PC, MAC... etc. 
+
+Pay attention to the the order of the game for the platform and make applicable changes to the script.
+
+
