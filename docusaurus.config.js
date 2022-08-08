@@ -169,6 +169,9 @@ const config = {
             indexName: 'xr-archery'
             
           },
+      colorMode: {
+        defaultMode: 'dark'
+      },
     }),
 };
 
