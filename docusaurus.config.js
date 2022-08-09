@@ -79,7 +79,7 @@ const config = {
         title: 'Leviathan Kinect Game',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/leviathan_logo.svg',
         },
         items: [
           {
