@@ -76,7 +76,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Archery Kinect Game',
+        title: 'Leviathan Kinect Game',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
