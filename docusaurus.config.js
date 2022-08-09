@@ -42,6 +42,9 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 10,
+          postsPerPage: 10,
+          blogSidebarTitle: 'All our posts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -121,7 +124,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/aiegoo',
+                href: 'https://twitter.com/tonyleekorea',
               },
             ],
           },
