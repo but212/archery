@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Archery Kinect Game',
+  title: 'Leviathan Kinect Game',
   tagline: 'TEAMC',
   url: 'https://aiegoo.github.io/',
   baseUrl: '/archery/',

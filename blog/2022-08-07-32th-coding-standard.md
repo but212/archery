@@ -540,7 +540,7 @@ Uniform Problem Solving
 Minimizes Communication
 Minimizes Performance Pitfalls
 
-<pre>
+```jsx
 └── Unity
     ├── Assets
     │   ├── 3rdParty
@@ -681,8 +681,4 @@ Minimizes Performance Pitfalls
         └── XRSettings.asset
 
 47 directories, 94 files
-</pre>
-
-import CodeBlock from '@theme/CodeBlock';
-
-<CodeBlock language="bash">{tree.md}</CodeBlock>
+``
