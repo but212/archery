@@ -121,7 +121,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/aiegoo',
+                href: 'https://twitter.com/tonyleekorea',
               },
             ],
           },
