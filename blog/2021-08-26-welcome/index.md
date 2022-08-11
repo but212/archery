@@ -5,21 +5,18 @@ authors: [tonylee, jungil]
 tags: [facebook, hello, docusaurus]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 
-Simply add Markdown files (or folders) to the `blog` directory.
+###  what game is
 
-Regular blog authors can be added to `authors.yml`.
+1. is it fun
+2. how is it being packaged
+3. is it creative and stand-out
+4. is it doable or is it something wishful
+5. is it clear on the architecture
+6. does it sound appropriate
+7. is it in focus and immersable 
+8. does it allow different views
+9. what emotion does it evoke
+10. is it detailed
+11. perfection level
 
-The blog post date can be extracted from filenames, such as:
-
-- `2022-07-30-welcome.md`
-- `2022-08-01-welcome/index.md`
-
-A blog post folder can be convenient to co-locate blog post images:
-
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
