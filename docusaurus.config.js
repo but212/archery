@@ -9,7 +9,7 @@ const config = {
   title: 'Leviathan Kinect Game',
   tagline: 'TEAMC',
   url: 'https://aiegoo.github.io/',
-  baseUrl: '/archery/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -81,7 +81,7 @@ const config = {
       navbar: {
         title: 'Leviathan Kinect Game',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'My Site Logoo',
           src: 'img/leviathan_logo.svg',
         },
         items: [
